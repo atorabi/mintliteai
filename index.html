@@ -135,7 +135,7 @@
   <p class="updated">Last updated: August 5, 2026</p>
 
   <div class="highlight">
-   Your financial data is stored in your own iCloud account. We don't operate a database of your finances and we can't browse or retrieve your accounts. The one exception is described under "PDF statement processing" below.
+    Your financial data is stored in your own iCloud account. We don't operate a database of your finances and we can't browse or retrieve your accounts. The one exception is described under "PDF statement processing" below.
   </div>
 
   <h2>Overview</h2>
@@ -160,7 +160,7 @@
     <li>Your data syncs privately across your own Apple devices</li>
     <li>Deleting the app or your iCloud data permanently removes all records</li>
   </ul>
-  <p>We have no ability to access, view, or retrieve your financial data at any time.</p>
+  <p>We have no ability to access, view, or retrieve the financial data stored in your iCloud account at any time.</p>
 
   <h2>PDF statement processing</h2>
   <p>When you import a PDF bank statement, text is extracted on your device. For statements from banks not recognized by our built-in parsers, the extracted text may be sent to an AI service (Claude by Anthropic) via an encrypted HTTPS connection to identify account names and balances. This text is:</p>
@@ -168,8 +168,8 @@
     <li>Sent only when the built-in parser cannot recognize the institution</li>
     <li>Used solely to extract account name, type, and balance information</li>
     <li>Not stored, logged, or retained by our servers after processing</li>
-   <li>Retained by Anthropic for up to 30 days for abuse monitoring, then deleted</li>
-   <li>Not used to train AI models by default — see Anthropic's <a href="https://www.anthropic.com/privacy" target="_blank">Privacy Policy</a></li>
+    <li>Retained by Anthropic for up to 30 days for abuse monitoring, then deleted</li>
+    <li>Not used to train AI models by default — see Anthropic's <a href="https://www.anthropic.com/privacy" target="_blank">Privacy Policy</a></li>
   </ul>
   <p>The AI processing server is operated by the app developer and acts only as a secure relay to Anthropic's API. No financial data is persisted on this server.</p>
 
@@ -181,7 +181,7 @@
   </div>
   <ul>
     <li><strong>Apple iCloud / CloudKit</strong> — private data storage and sync. <a href="https://www.apple.com/privacy/" target="_blank">Apple Privacy Policy</a></li>
-    <li><strong>Anthropic Claude API</strong> — AI-assisted parsing of unrecognized bank statements. Per Anthropic's API terms, data sent via the API is never used to train AI models. <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy</a></li>
+    <li><strong>Anthropic Claude API</strong> — AI-assisted parsing of unrecognized bank statements. Data sent via the API is not used to train AI models by default and is deleted by Anthropic within 30 days. <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy</a></li>
   </ul>
   <p>No analytics SDKs, advertising networks, or tracking tools are used.</p>
 
@@ -207,7 +207,7 @@
 </div>
 
 <footer>
-  &copy; 2026 MintLite AI &nbsp;&middot;&nbsp; <a href="https://www.adamtorabi.com">adamtorabi.com</a>
+  &copy; 2026 MintLite AI &nbsp;&middot;&nbsp; <a href="https://mintliteai.adamtorabi.com">mintliteai.adamtorabi.com</a>
 </footer>
 
 </body>
